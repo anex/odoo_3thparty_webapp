@@ -5,6 +5,14 @@ var user = 'user';
 var pass = 'pass';
 
 (function() {
+    //Search Example
+    /*openerp.session = new openerp.Session(self, server, options)
+    openerp.session.session_authenticate(db, user, pass)
+    model = openerp.session.model('res.partner')
+    console.log(model);
+    model.call('search_read', [[]]).done(function (response){
+        console.log(response)
+    })*/
 })();
 
 $(document).ready(function(){
